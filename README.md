@@ -18,7 +18,13 @@ The training data for NLU and policy learning are available at [data/nlu/data.js
 
 ## How to use this repo
 
-You can use the repo to build a chatbot within a few minutes!
+You can use the repo to build a chatbot within a few minutes! Two example conversations are shown below. They differ in the [is_grandfathered](actions.py#L16) slot value.
+
+Conversation 1 (is_grandfathered=True):
+![alt text](conv1.png)
+
+Conversation 2 (is_grandfathered=False):
+![alt text](conv2.png)
 
 ### Install Rasa NLU and Rasa Core
 
@@ -28,14 +34,18 @@ Install Rasa libraries with:
 
 If this does not work, then:
 
-```pip install rasa-core==0.13.2
-pip install rasa-nlu==0.14.6```
+```
+pip install rasa-core==0.13.2
+pip install rasa-nlu==0.14.6
+```
 
 ### Training the NLU model
 
 To train and test the NLU model run:  
 
 ``` python nlu_model.py ```
+
+(you may train multiple times until "yes" leads to the `confirm` intent...)
 
 ### Training the Rasa Core model
 
