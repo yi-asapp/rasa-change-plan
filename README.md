@@ -10,7 +10,7 @@ The ontology design and data collection are largely based on the flow.
 
 ### Ontology design
 
-The ontology is defined in the [changeplan_domain](changplan_domain.yml) file. There are five user intents and six bot actions. Two slots are involved: planType and isGrandfathered. We also define some prompts.
+The ontology is defined in the [changeplan_domain](changeplan_domain.yml) file. There are five user intents and six bot actions. Two slots are involved: planType and isGrandfathered. We also define some prompts.
 
 ### Data annotation
 
