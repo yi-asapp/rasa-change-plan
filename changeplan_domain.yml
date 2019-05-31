@@ -1,0 +1,39 @@
+slots:
+  plan_type:
+    type: categorical
+    values:
+    - monthly
+    - daily
+  is_grandfathered:
+    type: bool
+
+intents:
+ - greet
+ - goodbye
+ - inform
+ - confirm
+ - deny
+
+
+entities:
+ - plan_type
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_gf_confirm:
+    - "Your current plan is  a grandfathered  plan. If you change plans, you will no longer be able to access this plan again.\nAre you sure you'd like to change plans?"
+  utter_ask_plan:
+    - 'We have monthly and daily plans. Which one do you want?'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_gf_confirm
+ - utter_ask_plan
+ - action_fetch_profile
+ - action_set_plan

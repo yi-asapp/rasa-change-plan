@@ -1,0 +1,172 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "I want to change my plan to a daily plan?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 35,
+            "value": "daily",
+            "entity": "plan_type"
+          }
+        ]
+      },
+	  {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Can I change the plan for my phone?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "I would like to switch to a monthly plan.",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "monthly",
+            "entity": "plan_type"
+          }
+        ]
+      },
+      {
+        "text": "May I change my plan?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what other mobile plan do you have?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Yes",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "please",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "go aheard",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no, thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "I do not want it anymore",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "monthly",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "monthly",
+            "entity": "plan_type"
+          }
+        ]
+      }
+    ]
+  }
+}
